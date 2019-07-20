@@ -1,0 +1,15 @@
+/*! Place your custom styles here */
+
+.list-inline--images img {
+  max-height:10rem;
+}
+
+.bar .logo {
+  max-height: 4.5rem;
+  max-width: none;
+}
+
+.logo {
+
+  max-height : 3rem;
+}
