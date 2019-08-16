@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Adam Price",
   "license": "ISC",
@@ -24,5 +25,9 @@
     "nodemon": "^1.19.1",
     "path": "^0.12.7",
     "sweetalert2": "^8.14.0"
+  }, 
+
+  "engines" : {
+    "node" : "12.4.0"
   }
 }

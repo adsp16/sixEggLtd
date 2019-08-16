@@ -13,7 +13,7 @@ exports.sendContactForm = (req, res, next) => {
 
     var data = {
       from : 'adsp16@gmail.com' ,
-      to : 'adam.price@fineandcountry.com', 
+      to : 'adsp16@gmail.com', 
       subject : `New enquiry from ${name}`, 
       text : message
     };
@@ -31,7 +31,7 @@ exports.userSubscribe = (req, res, next) => {
 
   var data = {
     from : 'adsp16@gmail.com' ,
-      to : 'adam.price@fineandcountry.com', 
+      to : 'adsp16@gmail.com', 
       subject : `New Subscriber`, 
       text : email
   };
